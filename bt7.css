@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.title{
+    border-bottom: 1px gray;
+    font-size: 20px;
+}
+.underline{
+    margin-top: 10px;
+    border: 1px solid gray;
+    opacity: 0.7;
+}
+.container{
+   background-color: rgb(243, 243, 243);
+    border-radius: 6px;
+    padding: 6px;
+    width: 300px;
+    height: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.icon{
+    position: relative;
+    left: 30%;
+}
+.recipent{
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 6px;
+    opacity: 0.7;
+}
+#text{
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+}
+button{
+    background-color: gray;
+    color: white;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none; 
+    position: relative;
+    left: 50%;
+}
+.submit{
+    color: white;
+    background-color: #297dfa;
+}
